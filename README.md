@@ -1,3 +1,2 @@
 # LED-Status-Indicator_Module
-Schematic/ PCB Layout design for RGB LED Status Indicator. 
-Powered from 24V system. Uses CAN bus to listen for commands from  microcontroller, which can then prominently display the desired color.
+This is the schematic/ PCB Layout design for RGB LED Status Indicator for the NASA Robot Mining Competition team. It is powered from a 24V system and uses a CAN transciever to listen for commands from a microcontroller. The microcontroller then controlls the LED driver which will then indicate the desired color. Worked with hardware team lead to design this project.
