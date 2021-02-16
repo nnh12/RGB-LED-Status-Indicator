@@ -3,4 +3,4 @@ This is the schematic/ PCB Layout design for RGB LED Status Indicator Module for
 
 LED Node
 ---
-This is the ROS (Robot Operating System) LED node that will listen to a ROS service and relay the signal in a CAN Frame message to the Hardware Controller (HWCTRL) node. The HWCTRL will then signal to the STM32Microcontroller will recieve that information to know which LED to turn on. This is written in C++.
+This is the ROS (Robot Operating System) LED node that will listen to a ROS service and relay the signal in a CAN Frame message to the Hardware Controller (HWCTRL) node. The HWCTRL will then signal to the STM32Microcontroller which will recieve that information to know which LED to turn on. This is written in C++.
